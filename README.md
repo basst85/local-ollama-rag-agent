@@ -73,5 +73,5 @@ cp .env.example .env
 | Variable          | Default            | Description                              |
 | ----------------- | ------------------ | ---------------------------------------- |
 | `EMBEDDING_MODEL` | `embeddinggemma`   | Ollama model used for embeddings         |
-| `CHAT_MODEL`      | `kimi-k2.5:cloud`  | Ollama model used for chat / tool-calling |
+| `CHAT_MODEL`      | `qwen3-next:80b-cloud`  | Ollama model used for chat / tool-calling |
 | `DIMENSIONS`      | `256`              | Matryoshka slice size (out of 768)       |
