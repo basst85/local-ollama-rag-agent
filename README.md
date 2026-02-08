@@ -9,6 +9,7 @@ A local RAG (Retrieval-Augmented Generation) agent built with **Bun**, **Ollama*
 3. **Search** — A vector similarity search finds the top-3 most relevant documents for a given query.
 4. **Answer** — An AI chat model decides whether to call the `search_database` tool, retrieves context, and generates a grounded answer.
 
+More info in my blogpost: [From Vectors to Answers: Building a Local RAG Agent](https://bastiaan.dev/blog/from-vectors-to-answers-local-rag)
 ## Prerequisites
 
 - [Bun](https://bun.sh/).
