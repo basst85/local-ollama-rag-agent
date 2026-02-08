@@ -5,7 +5,7 @@ A local RAG (Retrieval-Augmented Generation) agent built with **Bun**, **Ollama*
 ## How it works
 
 1. **Embed** — Documents are converted to 256-dimensional vectors using Ollama's `embeddinggemma` model with Matryoshka (MRL) slicing for efficiency.
-2. **Store** — Vectors are stored in SQLite via the [`sqlite-vector`](https://github.com/nicholasgasior/bun-sqlite-vector) extension, using cosine distance.
+2. **Store** — Vectors are stored in SQLite via the [`sqlite-vector`](https://github.com/sqliteai/sqlite-vector) extension, using cosine distance.
 3. **Search** — A vector similarity search finds the top-3 most relevant documents for a given query.
 4. **Answer** — An AI chat model decides whether to call the `search_database` tool, retrieves context, and generates a grounded answer.
 
